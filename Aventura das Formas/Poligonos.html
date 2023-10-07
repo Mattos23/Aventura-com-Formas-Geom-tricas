@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/script.js"></script>
+    <title>Polígonos</title>
+</head>
+<body>
+    <header>
+        <h1> Aventureiros das Formas Proibidas </h1>
+    </header>
+
+    <main>
+        <h3 class="titulo"> Polígonos </h3>
+
+        <p class="b">Polígonos são figuras geométricas planas compostas por segmentos de reta que formam uma figura fechada. Eles são caracterizados por terem pelo menos três lados e ângulos internos definidos. Os polígonos mais comuns incluem triângulos, quadriláteros, pentágonos, hexágonos, etc. A quantidade de lados de um polígono é chamada de "número de lados" ou "número de vértices", e essas figuras podem ser classificadas com base em suas características. Por exemplo, os triângulos têm três lados, enquanto os quadriláteros têm quatro.</p>
+        <p class="b">Os polígonos podem ser regulares, com todos os lados e ângulos iguais, ou irregulares, com medidas diferentes. Eles desempenham um papel fundamental na geometria e são amplamente utilizados em diversas aplicações, desde a construção civil até a matemática avançada, sendo essenciais para o estudo das propriedades e relações espaciais.</p>
+    <br>
+        <h4>Escolha um dos Polígonos:</h4>
+
+        <br>
+        <div class="poligonos">
+            <img class="poli" onclick="mostrarformas('pentagono')" src="images/pen.png" alt="pentágono" id="imgpentagono">
+            <img class="poli" onclick="mostrarformas('hexagono')" src="images/he.png" alt="hexágono" id="imghexagono">
+            <img class="poli" onclick="mostrarformas('heptagono')" src="images/hep.png" alt="heptágono" id="imgheptagono">
+        </div>
+    
+        <br>
+
+    <div id="pentagono">
+        <label for="number">Digite o valor do lado:</label>
+        <input type="number" id="ladop">
+        <br><br>
+        <label for="number">Digite o valor da apótema:</label>
+        <input type="number" id="apotema">
+        <br><br>
+        <button onclick="calcularPentagono()">Calcular</button>
+        <br><br>
+        <div id="resultadoPentagono"></div>
+
+    </div>
+
+    <div id="hexagono">
+        <label for="number">Digite o valor do lado:</label>
+        <input type="number" id="ladohe">
+        <br><br>
+        <button onclick="calcularHexagono()">Calcular</button>
+        <br><br>
+        <div id="resultadoHexagono"></div>
+    </div>
+
+    <div id="heptagono">
+        <label for="number">Digite o valor da apótema:</label>
+        <input type="number" id="apotemaHeptagono">
+        <br><br>
+        <label for="number">Digite o valor do comprimento:</label>
+        <input type="number" id="comprimento">
+        <button onclick="calcularHeptagono()">Calcular</button>
+        <br><br>
+        <div id="resultadoHeptagono"></div>
+    </div>
+
+    <br>
+    <a href="index.html" class="voltar">voltar<a> 
+
+</main>
+    <footer>
+        <p class="footer"> &copy;FormasGeo.</p>
+    </footer>
+</body>
+</html>

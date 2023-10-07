@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/script.js"></script>
+    <title>Triângulo</title>
+</head>
+<body>
+    <header>
+        <h1> Aventureiros das Formas Proibidas </h1>
+    </header>
+
+    <main>
+        <h3 class="titulo"> Pirâmide </h3>
+
+        <p class="b">Uma pirâmide é uma figura geométrica tridimensional que possui uma base poligonal e faces laterais que convergem para um ponto chamado vértice.</p>
+        <p class="b">Tronco de Pirâmide: É uma pirâmide onde uma parte é removida criando uma segunda base menor, ambas paralelas, e o espaço entre as bases é a parte restante da pirâmide. Para calcular o volume, você precisa conhecer as áreas das duas bases e a altura do tronco.</p>
+        
+        <br>
+
+        <img src="images/trapezoide irregular de uma pirâmide.webp" alt="Pirâmide">
+
+        <h4>Cálcule o trapezoide irregular de uma pirâmide:</h4>
+
+        <br>
+
+        <label for="number">Digite o valor da base maior:</label>
+        <input type="number" id="baseA">
+             <br><br>
+        <label for="number">Digite o valor da base menor:</label>
+        <input type="number" id="baseB">
+             <br><br>
+        <label for="number">Digite o valor da altura:</label>
+        <input type="number" id="altura">
+            <br><br>
+        <button onclick="calcularTriangulo()">Calcular</button>
+
+            <br><br>
+        <div id="resultadoTriangulo"></div>
+
+        <br>
+        <a href="index.html" class="voltar">voltar<a> 
+
+    </main>
+
+    <footer>
+        <p class="footer"> &copy;FormasGeo.</p>
+    </footer>
+</body>
+</html>

@@ -4,23 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/script.js"></script>
     <title>Círculo</title>
 </head>
 <body>
     <header>
-        <h1>
-            <H1>Círculo</H1>
-        </h1>
+            <h1> Aventureiros das Formas Proibidas </h1>
     </header>
 
     <main>
-        <P>É uma figura formada por uma superfície plana que se limita por uma circunferência ("linha curva"). É considerada não-poligonal por não possuir um seguimento de reta.</P><br>
 
-        <form action="">
-            <label for="fname">Digite um número</label><br>
-            <input type="number" id="fname" name="fname" value="John"><br>
-            <input type="submit" value="Submit">
-          </form> 
+        <h3 class="titulo">Círculo</h3>
+
+        <P class="b">Um círculo é uma forma geométrica bidimensional que consiste em todos os pontos equidistantes de um ponto central, chamado de centro. É caracterizado por ser uma figura fechada e curva, com todos os pontos da sua borda, chamada de circunferência, situados a uma distância constante do centro. O raio é a medida dessa distância, que é igual para todos os pontos do círculo. O diâmetro é a distância entre dois pontos opostos da circunferência, passando pelo centro, e é o dobro do raio.</P><br>
+        <p class="b">Os círculos são simetricamente perfeitos e não possuem vértices, cantos ou lados retos. Eles desempenham um papel fundamental na geometria e têm diversas aplicações em matemática, física, engenharia e muitos outros campos, devido à sua simetria e propriedades únicas. Além disso, são frequentemente usados em design e arte devido à sua estética simples e equilibrada.</p><br>
+
+        <br>
+
+        <h4>Cálcule o setor circular em um círculo alinhado:</h4><br>
+
+        <img src="images/setor circular.webp" alt="setorcircular">
+
+        <br>
+        
+            <label for="number"> Digite o ângulo:</label><br>
+            <input type="number" id="angulo"><br>
+            <br><br>
+            <label for="number"> Digite o raio maior:</label><br>
+            <input type="number" id="raio"><br>
+            <br><br>
+            <button onclick="calcularCirculo()">Calcular</button>
+            <br><br>
+         
+
+            <div id="resultadoCirculo"></div>
+
+            <br>
+            <a href="index.html" class="voltar">voltar<a> 
+         
     </main>
 
     <footer>

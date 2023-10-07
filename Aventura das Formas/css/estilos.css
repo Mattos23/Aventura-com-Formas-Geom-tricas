@@ -50,6 +50,53 @@ h3{
     text-decoration: underline;
 }
 
+h4{
+    text-align: center;
+    font-size: large;
+}
+
+#form{ text-align: left;
+
+}
+
+.titulo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.aq{
+    text-align: justify;
+
+}
+
+.b{
+    text-align: justify; 
+}
+
+.poligonos{
+    display: inline-block;
+   text-align: center;
+}
+
+.poli{ 
+    width: 100px;
+    height: 100px;
+    margin: 9px;
+}
+
+#pentagono, #hexagono, #heptagono{
+    display: none;
+
+
+}
+
+.voltar{
+    display: block;
+    text-align: left;
+    text-decoration: none;
+}
+
 footer{
     background-color: gray;
     text-align: center;
